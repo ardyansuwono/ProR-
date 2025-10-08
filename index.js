@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 app.use(async (req, res) => {
   try {
     const path = req.originalUrl; // path dinamis
-    const url = `https://d43tg978oium5.cloudfront.net${path}`; // ganti dengan host asli
+    const url = `https://liveplus.rctiplus.id${path}`; // ganti dengan host asli
 
     const headers = {
       Referer: "https://www.rctiplus.com/",
